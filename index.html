@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="DV被害で住まいの悩みを抱える男性へ。逃げたいのに逃げられない…そんな声を、17年間の住まい支援団体が丁寧にお聞きします。インタビュー協力のお礼として3,000円をお支払い。">
+    <title>逃げたいのに、逃げる場所がない―― DV被害の男性の住まいの悩みを、一人で抱え込まないでください | 支援ネット</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600&amp;display=swap');
+        body { font-family: 'Noto Sans JP', system-ui, sans-serif; }
+        
+        .hero-bg {
+            background: linear-gradient(180deg, #f8f1eb 0%, #f5ede6 100%);
+        }
+        
+        .soft-pink { color: #d8a8a0; }
+        .deep-teal { color: #0f766e; }
+        
+        .section-header {
+            position: relative;
+        }
+        .section-header:after {
+            content: '';
+            position: absolute;
+            width: 48px;
+            height: 3px;
+            background: #0f766e;
+            bottom: -6px;
+            left: 0;
+        }
+        
+        .cta-soft {
+            transition: all 0.3s ease;
+        }
+        .cta-soft:hover {
+            background-color: #f5ede6;
+            transform: translateY(-1px);
+        }
+        
+        .quick-escape {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 50;
+            background: #fff;
+            color: #666;
+            border: 2px solid #d8a8a0;
+            border-radius: 9999px;
+            padding: 8px 20px;
+            font-size: 14px;
+            box-shadow: 0 4px 12px rgba(216, 168, 160, 0.2);
+            transition: all 0.2s ease;
+        }
+        .quick-escape:hover {
+            background: #d8a8a0;
+            color: white;
+        }
+        
+        .text-balance {
+            text-wrap: balance;
+        }
+    </style>
+</head>
+<body class="bg-[#f8f1eb] text-[#333] leading-loose">
+
+    <!-- QUICK ESCAPE BUTTON -->
+    <button onclick="window.location.href='https://www.google.com'" 
+            class="quick-escape flex items-center gap-2 font-medium">
+        <i class="fas fa-times"></i>
+        今すぐ閉じる
+    </button>
+
+    <!-- HEADER -->
+    <header class="bg-white/80 backdrop-blur-md border-b border-[#e8d9d0] sticky top-0 z-40">
+        <div class="max-w-6xl mx-auto px-6 py-5 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <div class="w-9 h-9 bg-[#0f766e] text-white rounded-2xl flex items-center justify-center text-2xl">🏠</div>
+                <div>
+                    <h1 class="text-2xl font-semibold text-[#0f766e]">支援ネット</h1>
+                    <p class="text-xs text-[#6b5d55]">埼玉・東京・千葉　17年間の住まい支援</p>
+                </div>
+            </div>
+            <a href="#voice" 
+               class="cta-soft px-6 py-3 text-[#0f766e] border border-[#0f766e] rounded-3xl text-sm font-medium flex items-center gap-2 hover:bg-[#f5ede6]">
+                <i class="fas fa-comment-dots"></i>
+                あなたの声を聞かせてください
+            </a>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero-bg pt-16 pb-20">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="max-w-2xl">
+                <div class="inline-flex items-center gap-2 bg-white px-5 py-2 rounded-3xl text-sm font-medium text-[#0f766e] mb-8 shadow-sm">
+                    <span class="text-[#d8a8a0]">●</span>
+                    毎月5名様限定　安全第一の募集
+                </div>
+                
+                <h1 class="text-4xl md:text-5xl font-semibold leading-[1.3] text-balance mb-8 text-[#333]">
+                    逃げたいのに、<br>逃げる場所がない――
+                </h1>
+                
+                <p class="text-2xl text-[#6b5d55] mb-8">
+                    そんなDV被害の住まいの悩みを、<br>
+                    一人で抱え込まないでください。
+                </p>
+                
+                <p class="text-xl text-[#6b5d55]">
+                    DV・精神的支配・生活苦…。<br>
+                    パートナーからの暴力で家を失いそう…<br class="hidden md:block">男性のリアルな声を、住まい支援17年の団体が<br>丁寧にお聞きします。
+                </p>
+                
+                <div class="mt-10 flex flex-wrap items-center gap-x-8 gap-y-4 text-base">
+                    <div class="flex items-center gap-2">
+                        <i class="fas fa-phone text-[#0f766e]"></i>
+                        <span>電話一本　30〜60分</span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <i class="fas fa-lock text-[#0f766e]"></i>
+                        <span>プライバシー最大限配慮</span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <i class="fas fa-home text-[#0f766e]"></i>
+                        <span>顔出し・来所不要</span>
+                    </div>
+                </div>
+                
+                <!-- ソフトCTA -->
+                <a href="#voice" 
+                   class="mt-12 inline-flex items-center justify-center bg-white border-2 border-[#0f766e] text-[#0f766e] hover:bg-[#f5ede6] text-xl font-medium px-10 py-5 rounded-3xl">
+                    詳しく読む
+                    <i class="fas fa-chevron-down ml-3"></i>
+                </a>
+                
+                <p class="mt-6 text-xs text-[#9c8a80]">まずは安心してページをご覧ください</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SAFETY FIRST BLOCK -->
+    <section class="max-w-6xl mx-auto px-6 -mt-8 relative z-10">
+        <div class="bg-white rounded-3xl shadow-lg p-8 md:p-10">
+            <h3 class="text-[#0f766e] font-medium mb-6 flex items-center gap-2">
+                <i class="fas fa-shield-alt"></i>
+                こんな配慮で安全にお話しできます
+            </h3>
+            <div class="grid md:grid-cols-3 gap-6 text-sm">
+                <div class="flex gap-3">
+                    <span class="text-[#d8a8a0] text-xl">✓</span>
+                    <div>ご希望の時間帯のみ連絡<br><span class="text-[#9c8a80]">（夜間も相談可）</span></div>
+                </div>
+                <div class="flex gap-3">
+                    <span class="text-[#d8a8a0] text-xl">✓</span>
+                    <div>LINEのみのやり取りもOK<br><span class="text-[#9c8a80]">非通知・別名義対応相談可</span></div>
+                </div>
+                <div class="flex gap-3">
+                    <span class="text-[#d8a8a0] text-xl">✓</span>
+                    <div>「支援はいらない、話だけしたい」でも大丈夫<br><span class="text-[#9c8a80]">同居家族に配慮した連絡方法</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 今、社会で起きていること -->
+    <section class="max-w-6xl mx-auto px-6 py-20">
+        <div class="max-w-3xl mx-auto">
+            <h2 class="section-header text-3xl font-semibold mb-8">今、社会で起きていること</h2>
+            <p class="text-lg text-[#6b5d55] mb-8">
+                私たちは、埼玉・東京・千葉エリアで17年間、延べ1,500件以上の住まい支援を行ってきた団体「支援ネット」です。
+            </p>
+            <p class="text-lg text-[#6b5d55]">
+                DVは女性だけが被害者ではありません。<br>
+                男性も精神的・経済的・身体的暴力を受け、<br>
+                「家を失う恐怖」と「DVの恐怖」が同時に襲ってくるケースが急増しています。
+            </p>
+            
+            <div class="mt-12 bg-white rounded-3xl p-8 border border-[#e8d9d0]">
+                <div class="text-[#d8a8a0] text-xs font-medium mb-4">内閣府 令和5年度調査より</div>
+                <ul class="space-y-6">
+                    <li class="flex items-start gap-4"><span class="font-semibold text-4xl text-[#d8a8a0]">22.0%</span><span class="pt-1">男性の約5人に1人が配偶者などから暴力を受けた経験</span></li>
+                    <li class="flex items-start gap-4"><span class="font-semibold text-4xl text-[#d8a8a0]">7.2%</span><span class="pt-1">男性の約14人に1人が繰り返しの被害を受けている</span></li>
+                    <li class="flex items-start gap-4"><span class="font-semibold text-4xl text-[#d8a8a0]">12.0%</span><span class="pt-1">デートDV（交際相手からの暴力）経験あり</span></li>
+                </ul>
+                <p class="text-xs text-[#9c8a80] mt-8">※被害を受けた男性の57.2%はどこにも相談できていない状況です。</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 目的 -->
+    <section class="bg-[#f5ede6] py-16">
+        <div class="max-w-6xl mx-auto px-6 text-center">
+            <h2 class="section-header text-3xl font-semibold mb-6 mx-auto max-w-xs">あなたの声をお聞きしたい</h2>
+            <p class="max-w-xl mx-auto text-lg text-[#6b5d55]">
+                経験してきた困難や今のリアルな実情を伺い、<br>
+                支援活動をより役立つものにしたいと考えています。
+            </p>
+        </div>
+    </section>
+
+    <!-- 謝礼（ここで初めて金額を強調） -->
+    <section class="max-w-6xl mx-auto px-6 py-20">
+        <div class="max-w-3xl mx-auto bg-white rounded-3xl p-10 text-center border border-[#e8d9d0]">
+            <p class="text-[#0f766e] font-medium">インタビュー協力のお礼として</p>
+            <div class="text-5xl font-semibold text-[#0f766e] my-4">3,000円</div>
+            <p class="text-[#6b5d55]">をお支払いいたします（30〜60分の電話）</p>
+            <div class="mt-8 text-sm text-[#9c8a80] space-y-2">
+                <p>・完了後3営業日以内に振込</p>
+                <p>・振込名義は配慮可能です</p>
+                <p>・内容は支援改善以外には使用しません</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 応募条件 -->
+    <section class="max-w-6xl mx-auto px-6 py-12">
+        <h2 class="text-3xl font-semibold text-center mb-10">お話を聞かせていただきたい方</h2>
+        <div class="grid md:grid-cols-3 gap-6">
+            <div class="bg-white p-8 rounded-3xl text-center border border-[#e8d9d0]">DV被害に悩んでいる男性</div>
+            <div class="bg-white p-8 rounded-3xl text-center border border-[#e8d9d0]">DV被害で住居の悩みがある方<br><span class="text-xs text-[#9c8a80]">(家賃滞納・住居喪失の危機など)</span></div>
+            <div class="bg-white p-8 rounded-3xl text-center border border-[#e8d9d0]">インタビュー後、身分証提示ができる方</div>
+        </div>
+    </section>
+
+    <!-- 聞きたい例 -->
+    <section class="max-w-6xl mx-auto px-6 py-20 bg-white">
+        <h2 class="section-header text-3xl font-semibold mb-10">📝 特に聞かせてほしい状況の例</h2>
+        <div class="grid md:grid-cols-2 gap-8 max-w-3xl mx-auto">
+            <div class="flex gap-4">
+                <span class="text-4xl">💔</span>
+                <div>彼女からの身体的暴力（反撃できない・厚底サンダルで殴られるなど）</div>
+            </div>
+            <div class="flex gap-4">
+                <span class="text-4xl">🏠</span>
+                <div>一方的な別れで家賃滞納・住居喪失の危機</div>
+            </div>
+            <div class="flex gap-4">
+                <span class="text-4xl">🗣️</span>
+                <div>精神的DV（暴言・LINE監視・スクショ拡散の脅し）</div>
+            </div>
+            <div class="flex gap-4">
+                <span class="text-4xl">🔒</span>
+                <div>経済的DVや性的強要を受けながら住む場所に困っている</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 私たちについて（信頼感UP） -->
+    <section class="max-w-6xl mx-auto px-6 py-20 border-t border-[#e8d9d0]">
+        <h2 class="section-header text-3xl font-semibold mb-8">私たち支援ネットについて</h2>
+        <div class="grid md:grid-cols-12 gap-8">
+            <div class="md:col-span-7">
+                <p class="text-lg text-[#6b5d55]">埼玉・東京・千葉を中心に17年間活動。延べ1,500件以上のDV被害者・生活困窮者の住まい支援をしてきました。</p>
+                <p class="mt-6 text-sm text-[#9c8a80]">行政と連携しながら、個室シェルター提供、生活保護申請同行、就労支援など、実際に「逃げてから立て直す」現場を支えてきました。</p>
+            </div>
+            <div class="md:col-span-5 text-center text-[#9c8a80] text-sm bg-[#f8f1eb] rounded-3xl p-6">
+                代表相談員<br>
+                <span class="block text-2xl text-[#0f766e] mt-2">「男性の声も、女性と同じように大切に受け止めたい」</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- 注意事項（匿名の説明はここにまとめる） -->
+    <section class="max-w-6xl mx-auto px-6 py-16 bg-[#f5ede6] rounded-t-3xl">
+        <h2 class="flex items-center gap-3 text-2xl font-medium mb-8"><i class="fas fa-exclamation-circle text-[#d8a8a0]"></i> 安心してご参加いただくために</h2>
+        <ul class="max-w-2xl mx-auto space-y-4 text-base">
+            <li class="flex gap-4">・お電話一本で完結（来所・顔出し不要）</li>
+            <li class="flex gap-4">・プライバシーは最大限守ります（振込手続き上、名前等の確認はさせていただきますが、支援活動以外には一切使用しません）</li>
+            <li class="flex gap-4">・無理な勧誘や望まない支援は一切ありません</li>
+            <li class="flex gap-4">・インタビューだけでも謝礼は全額お支払いします</li>
+        </ul>
+    </section>
+
+    <!-- 限定募集 -->
+    <section class="max-w-6xl mx-auto px-6 py-16 text-center">
+        <div class="inline-flex bg-[#d8a8a0]/10 text-[#d8a8a0] px-8 py-3 rounded-3xl text-lg font-medium">毎月5名様限定</div>
+        <p class="text-2xl mt-6">一人ひとりの状況に、しっかり寄り添ってお聞きします</p>
+    </section>
+
+    <!-- FINAL CTA -->
+    <section id="voice" class="bg-[#0f766e] text-white py-20">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <p class="text-[#d8c5b8] text-sm tracking-widest mb-3">DV被害で家を失いそう…という男性へ</p>
+            <h2 class="text-4xl font-semibold mb-8">あなたの声が、同じ悩みを抱える男性の未来を変えます</h2>
+            
+            <div class="bg-white/10 rounded-3xl p-8 mb-10">
+                <p class="text-2xl">30秒で応募完了</p>
+                <p class="text-[#d8c5b8] mt-2">ニックネーム可・LINEのみOK・支援不要でも大丈夫</p>
+            </div>
+            
+            <a href="https://example.com/apply-form-male" 
+               target="_blank"
+               class="block mx-auto bg-white text-[#0f766e] text-2xl font-medium px-16 py-7 rounded-3xl inline-flex items-center gap-4 hover:bg-[#f5ede6]">
+                あなたの声を聞かせてください
+                <i class="fas fa-arrow-right"></i>
+            </a>
+            
+            <p class="mt-8 text-[#d8c5b8]">24時間以内に担当者よりご連絡いたします</p>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="max-w-6xl mx-auto px-6 py-20">
+        <h2 class="text-3xl font-semibold text-center mb-10">よくあるご質問</h2>
+        <div class="max-w-2xl mx-auto space-y-6">
+            <details class="bg-white rounded-3xl p-6">
+                <summary class="font-medium flex justify-between">Q. パートナー（彼女・妻）にバレませんか？</summary>
+                <p class="mt-4 text-[#6b5d55]">完全にお電話またはLINEのみ。ご家族に知られる心配はありません。</p>
+            </details>
+            <details class="bg-white rounded-3xl p-6">
+                <summary class="font-medium flex justify-between">Q. 過去のDVでも対象ですか？</summary>
+                <p class="mt-4 text-[#6b5d55]">はい。現在も住居の悩みが残っている方であれば対象です。</p>
+            </details>
+            <details class="bg-white rounded-3xl p-6">
+                <summary class="font-medium flex justify-between">Q. 子どもがいても大丈夫ですか？</summary>
+                <p class="mt-4 text-[#6b5d55]">はい。お子様の状況も含めてお聞かせください。</p>
+            </details>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-[#6b5d55] text-[#d8c5b8] py-12 text-sm">
+        <div class="max-w-6xl mx-auto px-6 text-center">
+            <p>© 支援ネット｜埼玉・東京・千葉エリア 住まい支援</p>
+            <p class="mt-4 text-xs">DV被害者の声を大切に、より良い支援につなげていくためのページです（男性被害者対応版）。</p>
+        </div>
+    </footer>
+
+    <script>
+        console.log('%cDV被害男性向けLP（安全・共感重視版）が読み込まれました', 'color:#0f766e; font-weight:500');
+    </script>
+</body>
+</html>
